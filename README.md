@@ -16,6 +16,8 @@ COSMACの評価ボードであるCDP18S020の主要機能を製作し、その�
 - STG1861は- [Spare Time Gizmos' projects.](http://www.sparetimegizmos.com/Hardware/Elf2K_Accessories.htm#STG1681%20Pixie%20Graphics%20Replacement)で公開されているCDP1861 Pixie互換の回路です。HEX KeyboardはCOSMAC VIPのマニュアルに掲載されている回路です。
 - [Teensy Pixie Video](https://github.com/fourstix/MCard1802TeensyPixieVideo)はGaston Williamsさんが開発したCDP1861互換のOLED表示回路です。
 
+![image](/docs/images/coamac_stg1861_rev02_pcb3.jpg)
+
 ## Schematics
 
 - [CPU Board Rev 0.4 (2020/5/7)](https://kanpapa.com/cosmac/download/cdp18s020_cpu_rev04_scr.pdf)
@@ -95,7 +97,7 @@ UT4モニタの使いかたはCDP18S020のマニュアルを参照してくだ�
 
 2020/4/30に発注しました。2020/5/16に納品されました。
 
-![image](/docs/images/cosmac_stg1861_hexkey_rev02_garber_viewer.jpg)
+![image](/docs/images/coamac_stg1861_rev02_pcb2.jpg)
 
 ### COSMAC MBC BUS Board Rev. 0.2
 
@@ -107,7 +109,7 @@ UT4モニタの使いかたはCDP18S020のマニュアルを参照してくだ�
 
 2020/8/4に発注し2020/8/13に到着しました。
 
-![image](/docs/images/cosmac_teensy_pixie_rev01_gerver_viewer.jpg)
+![image](/docs/images/teensy32_pixie_hexkey_sound_pcb1.jpg)
 
 ## PCB Gerber data
 
