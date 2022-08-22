@@ -13,9 +13,8 @@ COSMACの評価ボードであるCDP18S020の主要機能を製作し、その�
 ビデオ出力回路は以下の3種類を試しています。
 
 - TV DISPLAY Boardはつくるシリーズ７に掲載されている回路です。これはCDP1861互換ではなく独自回路になっています。
-- STG1861はSpare Time Gizmos' projects.で公開されているCDP1861 Pixie互換の回路です。
-HEX KeyboardはCOSMAC VIPのマニュアルに掲載されている回路です。これでCOSMAC VIPの入出力ができるようになりました。
-- Teensy Pixie VideoはGaston Williamsさんが開発したCDP1861互換のOLED表示回路です。
+- STG1861は- [Spare Time Gizmos' projects.](http://www.sparetimegizmos.com/Hardware/Elf2K_Accessories.htm#STG1681%20Pixie%20Graphics%20Replacement)で公開されているCDP1861 Pixie互換の回路です。HEX KeyboardはCOSMAC VIPのマニュアルに掲載されている回路です。
+- [Teensy Pixie Video](https://github.com/fourstix/MCard1802TeensyPixieVideo)はGaston Williamsさんが開発したCDP1861互換のOLED表示回路です。
 
 ## Schematics
 
@@ -68,7 +67,7 @@ CPU Board Rev 0.2以降で、UT4の代わりにMCSMP20モニタとCOSMAC VIP OS�
 RESET後にRUN U(Utirity)ボタンを押すと$8000のROMが$0000に一時的に配置され、UT4モニタが起動します。
 RESET後にRUN P(Program)ボタンを押すと$0000に配置されたアプリケーションが実行されます。
 S5をSTEPにして、RESET後にRUN Pを押すことで１ステップ実行されます。
-UT4モニタの使いかたはCDP18S020のマニュアルを参照してください。具体的な操作例はブログにあります。
+UT4モニタの使いかたはCDP18S020のマニュアルを参照してください。具体的な操作例は[ブログ](https://kanpapa.com/cosmac/blog/2019/10/cosmac-mbc-sample1-run.html)にあります。
 
 ## PCB Gerber view
 
@@ -179,14 +178,16 @@ LEDの種類によっては1KΩでもまだ明るすぎると感じるかもし�
 ## 参考・引用文献
 
 - トランジスタ技術別冊　つくるシリーズ７　手作りコンピュータ入門 CQ出版社, 1981
-- KiCad 5.0 / 5.1 入門実習テキスト『KiCad Basics for 5.x』 　Kosaka.Lab.出版掛 マッハ新書
-- intersil CDP1802AC/3データシート
-- SB-Assembler
-- COSMAC ELF - RCA CDP1802 Computing
-- Compute II Issue 3: The 1802 Instruction Set
-- Evaluation Kit Manual for the RCA CDP1802 COSMAC Microprocessor
-- RCA COSMAC VIP CDP18S711 Instruction Manual
-- The 1802 Membership Card
+- [KiCad 5.0 / 5.1 入門実習テキスト『KiCad Basics for 5.x』 　Kosaka.Lab.出版掛 マッハ新書](https://booth.pm/ja/items/941963)
+- [intersil CDP1802AC/3データシート](https://www.renesas.com/jp/ja/www/doc/datasheet/cdp1802ac-3.pdf)
+- [SB-Assembler](https://www.sbprojects.net/sbasm/)
+- [COSMAC ELF - RCA CDP1802 Computing](http://www.cosmacelf.com/)
+- [Compute II Issue 3: The 1802 Instruction Set](https://www.atarimagazines.com/computeii/issue3/page52.php)
+- [Evaluation Kit Manual for the RCA CDP1802 COSMAC Microprocessor](http://bitsavers.trailing-edge.com/components/rca/cosmac/MPM-203_CDP1802_Evaluation_Kit_Manual_Sep76.pdf)
+- [RCA COSMAC VIP CDP18S711 Instruction Manual](http://bitsavers.trailing-edge.com/components/rca/cosmac/COSMAC_VIP_Instruction_Manual_1978.pdf)
+- [The 1802 Membership Card](http://www.sunrise-ev.com/1802.htm)
+- [Spare Time Gizmos: STG1861 Pixie Graphics Replacement](http://www.sparetimegizmos.com/Hardware/Elf2K_Accessories.htm#STG1681%20Pixie%20Graphics%20Replacement)
+- [fourstix/MCard1802TeensyPixieVideo](https://github.com/fourstix/MCard1802TeensyPixieVideo)
 
 ## 利用上の注意
 
