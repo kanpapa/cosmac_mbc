@@ -18,6 +18,10 @@ COSMACの評価ボードであるCDP18S020の主要機能を製作し、その�
 
 ![image](/docs/images/coamac_stg1861_rev02_pcb3.jpg)
 
+## Blog
+
+- [COSMAC研究会](https://kanpapa.com/cosmac/blog/cosmac-mbc/)に製作記事をまとめています。
+
 ## Schematics
 
 - [CPU Board Rev 0.4 (2020/5/7)](https://kanpapa.com/cosmac/download/cdp18s020_cpu_rev04_scr.pdf)
