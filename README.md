@@ -20,16 +20,16 @@ COSMACの評価ボードであるCDP18S020の主要機能を製作し、その�
 
 ## Blog
 
-- [COSMAC研究会](https://kanpapa.com/cosmac/blog/cosmac-mbc/)に製作記事をまとめています。
+- [きょうのかんぱぱ](https://kanpapa.com/today/tag/cosmac-mbc)に製作記事をまとめています。
 
 ## Schematics
 
-- [CPU Board Rev 0.4 (2020/5/7)](https://kanpapa.com/cosmac/download/cdp18s020_cpu_rev04_scr.pdf)
-- [Extention Board Rev 0.3 (2020/2/2)](https://kanpapa.com/cosmac/download/cdp18s020_ex_rev03_scr.pdf)
-- [TV DISPLAY Board Rev 0.2 (2020/1/3)](https://kanpapa.com/cosmac/document/cosmac_tv_rev0_2_sch.pdf) ... Not CDP1861
-- [STG1861 display/Hex keyboard Rev 0.2 (2020/4/30)](https://kanpapa.com/cosmac/download/cosmac_stg1861_rev0_2_scr.pdf)
-- [COSMAC MBC BUS Rev. 0.2 (2020/6/21)](https://kanpapa.com/cosmac/download/cosmac_mbcbus_rev0_2_sch.pdf)
-- [Teensy Pixie Video/HEX Keyboard/Sound Board Rev. 0.1 (2020/08/03)](https://kanpapa.com/cosmac/download/cosmac_teensy_pixie_rev0_1_sch.pdf)
+- [CPU Board Rev 0.4 (2020/5/7)](/schematics/cdp18s020_cpu_rev04_sch.pdf)
+- [Extention Board Rev 0.3 (2020/2/2)](/schematics/cdp18s020_ex_rev03_sch.pdf)
+- [TV DISPLAY Board Rev 0.2 (2020/1/3)](/schematics/cosmac_tv_rev02_sch.pdf) ... Not CDP1861
+- [STG1861 display/Hex keyboard Rev 0.2 (2020/4/30)](/schematics/cosmac_stg1861_rev02_sch.pdf)
+- [COSMAC MBC BUS Rev. 0.2 (2020/6/21)](/schematics/cosmac_mbcbus_rev02_sch.pdf)
+- [Teensy Pixie Video/HEX Keyboard/Sound Board Rev. 0.1 (2020/08/03)](/schematics/cosmac_teensy_pixie_rev01_sch.pdf)
 
 ## BOM
 
@@ -73,7 +73,7 @@ CPU Board Rev 0.2以降で、UT4の代わりにMCSMP20モニタとCOSMAC VIP OS�
 RESET後にRUN U(Utirity)ボタンを押すと$8000のROMが$0000に一時的に配置され、UT4モニタが起動します。
 RESET後にRUN P(Program)ボタンを押すと$0000に配置されたアプリケーションが実行されます。
 S5をSTEPにして、RESET後にRUN Pを押すことで１ステップ実行されます。
-UT4モニタの使いかたはCDP18S020のマニュアルを参照してください。具体的な操作例は[ブログ](https://kanpapa.com/cosmac/blog/2019/10/cosmac-mbc-sample1-run.html)にあります。
+UT4モニタの使いかたはCDP18S020のマニュアルを参照してください。具体的な操作例は[ブログ](https://kanpapa.com/today/2019/10/cosmac-mbc-sample1-run.html)にあります。
 
 ## PCB Gerber view
 
